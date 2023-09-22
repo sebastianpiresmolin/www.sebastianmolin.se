@@ -24,6 +24,15 @@ let timelineElements = [
         description: "Responsible for a group of 8 soldiers, planning and executing strategic combat and logistical operations.",
         buttonText: "View Detailed Work Description",
         date: "May 2017 - August 2018",
-        icon: "Work",
+        icon: "work",
     },
-]
+    {
+        id: 4,
+        title: "Recruit, Logistics Soldier",
+        location: "Swedish Armed Forces, Skovde",
+        description: "Military basic training",
+        buttonText: "View Details About Basic Training",
+        date: "June 2016 - May 2017",
+        icon: "school",
+    },
+];

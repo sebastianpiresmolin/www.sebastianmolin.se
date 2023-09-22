@@ -7,21 +7,20 @@ html {
 
 body {
     margin: 0px;
+    height: 100vh;
 }
 
 .container1 {
-    height: 100vh;
+    height: 100%;
     background-color: orange;
     background: linear-gradient(to top, rgba(255, 123, 0, 0.973), rgba(255, 217, 0, 0.877)), url(media/computerScreens.png) no-repeat top center;
-
-}
-
-.container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
+
 
 #titleImg {
     width: 200px;
@@ -33,8 +32,24 @@ body {
 .socialLinks {
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 
 .socialImg {
-    width: 50px;
+    width: 30px;
+}
+
+#titleName {
+    font-family: "Kaushan Script", cursive;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 50px;
+    transform: rotate(-5deg);
+}
+
+#titleText {
+    font-size: 16px;
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    color: #FFFFFF;
 }

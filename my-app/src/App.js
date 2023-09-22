@@ -18,7 +18,7 @@ let schoolIconStyles = {background: "#f9c74f"};
 
   return (
   <div>
-    <h1>Timeline</h1>
+    <h1 className="title">Timeline</h1>
     <VerticalTimeline>
       {timelineElements.map((element) => {
         let isWorkIcon = element.icon === "work";

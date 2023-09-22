@@ -7,13 +7,13 @@ html {
 
 body {
     margin: 0px;
-    height: 100vh;
+    max-height: fit-content;
 }
 
+
 .container1 {
-    height: 100%;
-    background-color: orange;
-    background: linear-gradient(to top, rgba(255, 123, 0, 0.973), rgba(255, 217, 0, 0.877)), url(media/computerScreens.png) no-repeat top center;
+    height: 500px;
+    background: linear-gradient(to top, rgba(255, 123, 0, 0.973), rgba(255, 174, 0, 0.877)), url(media/computerScreens.png) no-repeat top center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +26,7 @@ body {
     width: 200px;
     border-radius: 1000px;
     display: flex;
+    margin-bottom: -10px;
     
 }
 
@@ -52,4 +53,49 @@ body {
     font-family: "Space Mono", Arial, serif;
     font-weight: 400;
     color: #FFFFFF;
+    padding-bottom: 20px;
+    margin-top: -5px;
+}
+
+
+
+.container2 {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 5000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#aboutMe {
+    font-family: "Space Mono", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+#aboutMeText {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+#helloThere {
+    font-family: "Space Mono", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+#helloThereText {
+    font-family: "Space Mono", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #4d4d4d;
 }

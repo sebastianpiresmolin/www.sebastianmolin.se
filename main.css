@@ -10,14 +10,20 @@ body {
     max-height: fit-content;
 }
 
+
+.section1 {
+    background: linear-gradient(to top, rgba(255, 123, 0, 0.973), rgba(255, 174, 0, 0.877)), url(media/computerScreens.png) no-repeat top center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container1 {
     height: 500px;
-    background: linear-gradient(to top, rgba(255, 123, 0, 0.973), rgba(255, 174, 0, 0.877)), url(media/computerScreens.png) no-repeat top center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
 }
 
 

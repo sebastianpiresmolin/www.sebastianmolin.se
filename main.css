@@ -127,3 +127,8 @@ body {
 li {
     padding: 10px 0;
 }
+
+.socialImgBlack {
+    width: 30px;
+    gap: 30px;
+}

@@ -1,16 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-    background: #3da3d5;
-    font-family: "Montserrat", sans-serif;
+    background: #FFFFFF;
+    font-family: "Space Mono", sans-serif;
     font-size: 16px;
     color: rgb(53, 53, 53);
 }
 
 .title {
-    font-size: 15em;
+    font-size: 40px;
     text-align: center;
-    font-family: "Bebas Neue";
+    font-family: "Space Mono";
 }
 
 h3 {
     padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+}
+div.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns::before {
+    background-color: gray;
+    opacity: 0.15;
+}
+
+#description {
+    margin: 1.5em 0 2em 0;
+}
+
+.button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: black;
+}
+
+.workButton {
+    background-color: #0ac5938c;
+}
+
+.workButton:hover {
+    background-color: #0ac593;
+}
+
+.schoolButton{
+    background-color: rgba(255, 174, 0, 0.466);
+}
+
+.schoolButton:hover{
+    background-color: rgba(255, 174, 0, 1);
+}
+
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+        display: block !important;
+        float: none !important;
+        margin-top: 1.5em;
+    }
 }

@@ -138,3 +138,8 @@ li {
     width: 30px;
     gap: 30px;
 }
+
+#timelineApp {
+    width: 100%;
+    height: fit-content;
+}

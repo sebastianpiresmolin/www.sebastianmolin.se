@@ -3,6 +3,7 @@ html {
     min-width: 600px;
     height: 100%;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 body {

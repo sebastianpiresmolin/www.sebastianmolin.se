@@ -60,7 +60,7 @@ body {
     font-weight: 400;
     color: #FFFFFF;
     padding-bottom: 20px;
-    margin-top: -5px;
+    margin-top: 5px;
 }
 
 
@@ -126,12 +126,14 @@ body {
 
 .first-block {
     color: black;
-    margin-right: 25px;
+    margin-right: 65px;
+    font-weight: 800;
 }
 #aboutMeTextBlock{
     max-width: 750px;
     padding-left: 200px;
     margin-top: -1px;
+    text-shadow: 2px 2px white;
     
 }
 
@@ -155,7 +157,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #FFFFFF;
+  background: whitesmoke;
 }
 ::selection{
   color: #fff;
@@ -166,6 +168,7 @@ body{
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
+  height: fit-content;
 }
 .wrapper .center-line{
   position: absolute;
@@ -250,6 +253,7 @@ body{
 .row section p{
   margin: 10px 0 17px 0;
   font-family: "Space Mono";
+  color: #4d4d4d;
 }
 .row section .bottom a{
   text-decoration: none;
@@ -291,4 +295,19 @@ body{
   .wrapper .row{
     margin: 10px 0;
   }
+}
+
+.myResume {
+    display: flex;
+    justify-content: center;
+}
+
+.myResume h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.first-block,
+.second-block {
+    font-family: 'Space Mono';
 }

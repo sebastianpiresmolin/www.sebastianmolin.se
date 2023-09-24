@@ -89,6 +89,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
+    max-width: fit-content;
 
 }
 
@@ -116,7 +117,10 @@ body {
     line-height: 1.7;
     color: #4d4d4d;
     list-style: none;
-    padding-right: 15px;
+    padding-right: 0;
+    margin: 0;
+    float left: ;
+
 }
 
 .first-block {
@@ -137,9 +141,4 @@ li {
 .socialImgBlack {
     width: 30px;
     gap: 30px;
-}
-
-#timelineApp {
-    width: 100%;
-    height: fit-content;
 }

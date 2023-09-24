@@ -358,3 +358,18 @@ body{
   color: #ff9000;
   margin-bottom: 50px;
 }
+
+.footer {
+  display: flex;
+  background-color: #4d4d4df1;
+  justify-content: space-evenly;
+  height: 25px;
+  align-content: center;
+  align-items: center;
+}
+
+.footer a, h5{
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(231, 226, 226);
+}

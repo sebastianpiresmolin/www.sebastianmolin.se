@@ -373,3 +373,17 @@ body{
   text-decoration: none;
   color: rgb(231, 226, 226);
 }
+
+.date {
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.place {
+  font-family: "Space Mono",Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.bottom a {
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+}

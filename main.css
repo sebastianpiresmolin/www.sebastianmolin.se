@@ -372,6 +372,7 @@ body{
   font-family: "Space Mono", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: rgb(231, 226, 226);
+  font-size: 10px;
 }
 
 .date {

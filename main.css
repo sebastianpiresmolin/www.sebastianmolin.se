@@ -118,9 +118,10 @@ body {
     line-height: 1.7;
     color: #4d4d4d;
     list-style: none;
-    padding-right: 0;
-    margin: 0;
-    float left: ;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    float: left;
 
 }
 
@@ -131,7 +132,8 @@ body {
 }
 #aboutMeTextBlock{
     max-width: 750px;
-    padding-left: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-top: -1px;
     text-shadow: 2px 2px white;
     

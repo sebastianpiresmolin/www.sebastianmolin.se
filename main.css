@@ -311,3 +311,50 @@ body{
 .second-block {
     font-family: 'Space Mono';
 }
+
+.callToAction {
+  height: fit-content;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff9000;
+  align-items: center;
+}
+
+#hireMe {
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 40px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+#hireMe2 {
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.container4 p {
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px grey;
+}
+
+.container4 a {
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  color: #ff9000;
+  margin-bottom: 50px;
+}

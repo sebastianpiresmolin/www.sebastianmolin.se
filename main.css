@@ -29,38 +29,46 @@ body {
 
 
 #titleImg {
-    width: 200px;
+    width: 400px;
     border-radius: 1000px;
     display: flex;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
     
 }
 
 .socialLinks {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
+}
+
+.socialImg:hover {
+  transform: scale(0.95);
+}
+
+.socialImgBlack:hover {
+  transform: scale(0.95);
 }
 
 .socialImg {
-    width: 30px;
+    width: 45px;
 }
 
 #titleName {
     font-family: "Kaushan Script", cursive;
     color: #FFFFFF;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 70px;
     transform: rotate(-5deg);
 }
 
 #titleText {
-    font-size: 16px;
+    font-size: 24px;
     font-family: "Space Mono", Arial, serif;
     font-weight: 400;
     color: #FFFFFF;
     padding-bottom: 20px;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .section2 {
@@ -365,8 +373,7 @@ body{
 }
 
 .container4 a:hover{
-  background-color: #4d4d4d;
-  opacity: 0.8;
+  transform: scale(0.95);
 }
 
 .footer {
@@ -401,4 +408,14 @@ body{
 
 #toTop:hover, #contactme:hover{
   color: #ff9000;
+}
+
+@media screen and (max-width: 1460px) {
+  #info {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  
 }

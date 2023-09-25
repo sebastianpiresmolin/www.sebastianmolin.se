@@ -18,13 +18,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: fit-content;
 }
 
 .container1 {
-    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: fit-content;
 }
 
 
@@ -416,6 +417,48 @@ body{
   }
 }
 
-@media screen and (max-width: 1400px) {
-  
+@media screen and (max-width: 960px) {
+  #helloThereText {
+    font-size: 14px;
+
+  }
+
+  #titleName {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #helloThereText {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #aboutMeTextBlock {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1398px) {
+  #aboutMeText {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #info {
+    margin-top: 40px;
+    float: left;
+  }
+
+  #aboutMeTextBlock {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  #info {
+    font-size: 12px;
+  }
 }

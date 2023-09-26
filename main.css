@@ -432,6 +432,19 @@ body{
   #helloThereText {
     font-size: 12px;
   }
+  #hireMe {
+    font-size: 30px;
+
+  }
+  #hireMe2 {
+    font-size: 8px;
+  }
+  .container4 p {
+    font-size: 8px;
+  }
+  .container4 a{
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 600px) {
